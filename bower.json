@@ -1,0 +1,17 @@
+{
+  "name": "purescript-console-foreign",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "dependencies": {
+    "purescript-console": "2.0.0",
+    "purescript-foreign": "^3.0.0"
+  },
+  "devDependencies": {
+    "purescript-psci-support": "2.0.0",
+    "purescript-quickcheck": "^3.0.0"
+  }
+}
