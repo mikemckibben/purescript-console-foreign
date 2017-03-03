@@ -1,12 +1,11 @@
 module Test.Main where
 
-import Prelude
-import Control.Monad.Eff.Console.Foreign
+import Prelude (Unit, bind)
+import Control.Monad.Eff.Console.Foreign (logF)
 import Control.Monad.Eff (Eff)
 import Control.Monad.Eff.Console (CONSOLE)
-import Control.Monad.Eff.Console.Foreign (logF, infoF, warnF, errorF)
-import Data.Foreign (toForeign, Foreign)
-import Data.Foreign.Class (class AsForeign, write)
+import Data.Foreign (toForeign)
+import Data.Foreign.Class (class AsForeign)
 
 type MyRecord = { sval :: String, ival :: Int }
 
