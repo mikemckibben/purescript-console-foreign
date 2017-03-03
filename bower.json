@@ -1,5 +1,6 @@
 {
   "name": "purescript-console-foreign",
+  "license": "Apache-2.0",
   "ignore": [
     "**/.*",
     "node_modules",
